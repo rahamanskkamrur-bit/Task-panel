@@ -4,8 +4,8 @@ import discord
 from discord.ext import commands
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip().strip('"').strip("'")
-LEAD_IDS = [1567026565483859991]
-STAFF_ROLE_IDS = [1567026563369664590]
+LEAD_IDS = [1328042121181139007]
+STAFF_ROLE_IDS = [1485552584856174693]
 START_TIME, BOT_STATUS = time.time(), "Starting..."
 ASSISTANT_SCORES = {}  # {user_id: completed_tasks_count}
 
